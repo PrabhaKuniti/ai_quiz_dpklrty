@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply m-0 min-h-screen text-slate-900 antialiased font-sans transition-colors duration-300 ease-out;
+    /* Warm, uncommon palette without any blue hues */
+    background:
+      conic-gradient(from 110deg at 18% 30%, rgba(255, 198, 120, 0.85) 0deg, rgba(255, 198, 120, 0) 120deg), /* saffron */
+      conic-gradient(from 210deg at 82% 22%, rgba(255, 172, 196, 0.60) 0deg, rgba(255, 172, 196, 0) 140deg), /* rose */
+      conic-gradient(from 45deg at 25% 78%, rgba(214, 255, 120, 0.50) 0deg, rgba(214, 255, 120, 0) 160deg),  /* chartreuse */
+      #fff7f0; /* soft peach base */
+  }
+
+  body.dark {
+    @apply bg-slate-950 text-slate-100;
+    /* Deep aubergine with ember and fuchsia accents (no blues) */
+    background:
+      conic-gradient(from 120deg at 15% 22%, rgba(255, 135, 80, 0.40) 0deg, rgba(255, 135, 80, 0) 140deg),   /* ember orange */
+      conic-gradient(from 250deg at 88% 20%, rgba(240, 90, 170, 0.35) 0deg, rgba(240, 90, 170, 0) 150deg),   /* fuchsia */
+      conic-gradient(from 20deg at 28% 82%, rgba(230, 210, 90, 0.30) 0deg, rgba(230, 210, 90, 0) 160deg),    /* golden lime */
+      #0d0613; /* aubergine base */
+  }
+}
+
+@layer components {
+  .layout-container {
+    @apply relative flex min-h-screen w-full flex-col overflow-hidden;
+  }
+
+  .layout-inner {
+    @apply relative z-10 mx-auto flex w-full max-w-6xl flex-col px-6 pb-24 pt-12 md:px-10 lg:px-16;
+  }
+
+  .layout-shell {
+    @apply absolute inset-0 -z-10 overflow-hidden bg-white/70 shadow-soft backdrop-blur-xl dark:bg-slate-900/60 dark:shadow-[0_35px_80px_-35px_rgba(15,23,42,0.7)];
+  }
+
+  .layout-shell::after {
+    content: '';
+    @apply pointer-events-none absolute inset-0 bg-mesh-gradient opacity-70 dark:opacity-60;
+  }
+
+  .page-section {
+    @apply relative z-10 flex flex-1 flex-col gap-8 py-8;
+  }
+
+  .glass-panel {
+    @apply rounded-3xl border border-slate-200/70 bg-white/80 p-6 shadow-soft backdrop-blur-xl transition ease-out hover:shadow-[0_35px_80px_-40px_rgba(37,99,235,0.45)] dark:border-slate-700/70 dark:bg-slate-900/70 dark:hover:shadow-[0_35px_80px_-45px_rgba(96,165,250,0.35)];
+  }
+
+  .brand-button {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/30 transition duration-200 hover:-translate-y-0.5 hover:bg-brand-dark hover:shadow-brand/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/60 dark:bg-brand-light dark:text-slate-900 dark:hover:bg-white;
+  }
+
+  .ghost-button {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-slate-200/70 px-5 py-2.5 text-sm font-medium text-slate-700 transition duration-200 hover:-translate-y-0.5 hover:border-brand hover:text-brand focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-200 dark:border-slate-700 dark:text-slate-200 dark:hover:border-brand-light dark:hover:text-brand-light;
+  }
+
+  .badge-soft {
+    @apply inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100/70 px-3 py-1 text-xs font-medium text-slate-600 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300;
+  }
+
+  .card-grid {
+    @apply grid gap-5 md:grid-cols-2;
+  }
+
+  .pill-tabs {
+    @apply flex w-full gap-3 rounded-full border border-slate-200/70 bg-white/70 p-1 dark:border-slate-700/70 dark:bg-slate-900/60;
+  }
+
+  .pill-tab {
+    @apply flex-1 rounded-full px-5 py-2.5 text-center text-sm font-medium text-slate-500 transition duration-200 hover:text-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/40 dark:text-slate-300 dark:hover:text-white;
+  }
+
+  .pill-tab-active {
+    @apply bg-slate-900/90 text-white shadow-lg shadow-slate-900/20 dark:bg-white/90 dark:text-slate-900;
+  }
+
+  .option-card {
+    @apply flex cursor-pointer items-center gap-4 rounded-2xl border border-slate-200/70 bg-white/80 p-4 text-left transition duration-200 ease-out hover:-translate-y-0.5 hover:border-brand hover:shadow-soft dark:border-slate-700/70 dark:bg-slate-900/70 dark:hover:border-brand-light;
+  }
+
+  .option-card-selected {
+    @apply border-brand bg-brand/10 shadow-soft hover:border-brand dark:border-brand-light dark:bg-brand-light/20;
+  }
+
+  .progress-track {
+    @apply h-3 w-full overflow-hidden rounded-full bg-slate-200/80 dark:bg-slate-700/70;
+  }
+
+  .progress-bar {
+    @apply h-full rounded-full bg-brand transition-all duration-500 ease-out dark:bg-brand-light;
+  }
+}
