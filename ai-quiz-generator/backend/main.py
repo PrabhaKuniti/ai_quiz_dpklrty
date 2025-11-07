@@ -10,10 +10,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text, inspect
 from sqlalchemy.exc import IntegrityError
 
-from .database import SessionLocal, init_db, Quiz, engine
-from .models import GenerateQuizRequest, QuizOutput, HistoryItem, UrlPreview
-from .scraper import scrape_wikipedia, preview_wikipedia_title
-from .llm_quiz_generator import generate_quiz_payload
+from database import SessionLocal, init_db, Quiz, engine
+from models import GenerateQuizRequest, QuizOutput, HistoryItem, UrlPreview
+from scraper import scrape_wikipedia, preview_wikipedia_title
+from llm_quiz_generator import generate_quiz_payload
 
 
 def _get_allowed_origins() -> List[str]:
