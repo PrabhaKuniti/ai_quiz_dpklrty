@@ -1,0 +1,156 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+  "title": "Python (programming language)",
+  "summary": "Python is a high-level, general-purpose programming language known for its code readability, dynamic typing, and support for multiple programming paradigms. It was created by Guido van Rossum and first released in 1991. Python has gained widespread use, particularly in machine learning and as an introductory programming language. It consistently ranks among the top ten most popular programming languages.",
+  "key_entities": {
+    "people": [
+      "Guido van Rossum",
+      "Tim Peters",
+      "Alex Martelli"
+    ],
+    "organizations": [
+      "Centrum Wiskunde & Informatica (CWI)",
+      "Python Software Foundation",
+      "TIOBE Programming Community"
+    ],
+    "locations": [
+      "Netherlands",
+      "British"
+    ]
+  },
+  "sections": [
+    "Naming",
+    "Statements",
+    "Expressions",
+    "Functions",
+    "Libraries and frameworks",
+    "Implementations",
+    "Compilers",
+    "Performance",
+    "Development",
+    "Influences"
+  ],
+  "quiz": [
+    {
+      "question": "Which programming language served as a direct predecessor to Python?",
+      "options": [
+        "C++",
+        "Java",
+        "ABC",
+        "Pascal"
+      ],
+      "answer": "ABC",
+      "difficulty": "easy",
+      "explanation": "Python was designed as a successor to the ABC programming language. (Introduction)",
+      "section": "Introduction"
+    },
+    {
+      "question": "What is a key characteristic of Python's syntax that emphasizes code readability?",
+      "options": [
+        "Curly brackets",
+        "Significant indentation",
+        "Semicolons",
+        "Keywords"
+      ],
+      "answer": "Significant indentation",
+      "difficulty": "easy",
+      "explanation": "Its design philosophy emphasizes code readability with the use of significant indentation. (Introduction)",
+      "section": "Introduction"
+    },
+    {
+      "question": "Which release of Python introduced major revisions and was not completely backward-compatible?",
+      "options": [
+        "Python 2.0",
+        "Python 2.7",
+        "Python 3.0",
+        "Python 3.5"
+      ],
+      "answer": "Python 3.0",
+      "difficulty": "medium",
+      "explanation": "Python 3.0, released in 2008, was a major revision and not completely backward-compatible with earlier versions. (Introduction)",
+      "section": "Introduction"
+    },
+    {
+      "question": "What is the name given to the operator introduced in Python 3.8 that assigns values to variables as part of a larger expression?",
+      "options": [
+        "Assignment Operator",
+        "Walrus Operator",
+        "Expression Operator",
+        "Dynamic Operator"
+      ],
+      "answer": "Walrus Operator",
+      "difficulty": "medium",
+      "explanation": "The syntax := , called the \" walrus operator \", was introduced in Python 3.8. This operator assigns values to variables as part of a larger expression. (Expressions)",
+      "section": "Expressions"
+    },
+    {
+      "question": "What is the primary mechanism for proposing new features and collecting community input in Python's development?",
+      "options": [
+        "Python Enhancement Proposal (PEP)",
+        "Steering Council Review",
+        "Mailing List Discussions",
+        "GitHub Issues"
+      ],
+      "answer": "Python Enhancement Proposal (PEP)",
+      "difficulty": "medium",
+      "explanation": "Python's development is conducted mostly through the Python Enhancement Proposal (PEP) process; this process is the primary mechanism for proposing major new features, collecting community input on issues, and documenting Python design decisions. (Development)",
+      "section": "Development"
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of Python?",
+      "options": [
+        "Statically-typed variables",
+        "Dynamically type-checked",
+        "Garbage-collected",
+        "High-level language"
+      ],
+      "answer": "Statically-typed variables",
+      "difficulty": "medium",
+      "explanation": "Python is dynamically type-checked and garbage-collected. (Introduction)",
+      "section": "Introduction"
+    },
+    {
+      "question": "What is the term used to describe Python code that uses Python idioms well and conforms to Python's minimalist philosophy?",
+      "options": [
+        "Pythonesque",
+        "Pythonized",
+        "Pythonic",
+        "Pythonly"
+      ],
+      "answer": "Pythonic",
+      "difficulty": "hard",
+      "explanation": "A common neologism in the Python community is pythonic , which has a broad range of meanings related to program style: Pythonic code may use Python idioms well; be natural or show fluency in the language; or conform with Python's minimalist philosophy and emphasis on readability. (Readability)",
+      "section": null
+    },
+    {
+      "question": "Which of the following languages has NOT been influenced by Python?",
+      "options": [
+        "Ruby",
+        "Swift",
+        "C++",
+        "JavaScript"
+      ],
+      "answer": "C++",
+      "difficulty": "hard",
+      "explanation": "Cobra has an Acknowledgements document that lists Python first among influencing languages. ECMAScript and JavaScript borrowed iterators and generators from Python. Go is designed for \"speed of working in a dynamic language like Python\". Julia was designed to be \"as usable for general programming as Python\". Mojo is almost a superset of Python. GDScript is strongly influenced by Python. Groovy , Boo , CoffeeScript , F# , Nim , Ring , Ruby , Swift , and V have been influenced, as well.",
+      "section": "Influences"
+    }
+  ],
+  "related_topics": [
+    "NumPy",
+    "SciPy",
+    "Jupyter",
+    "PyTorch",
+    "Cython",
+    "CPython",
+    "Mojo",
+    "Pygame",
+    "PyQt",
+    "PyGTK",
+    "PyPy",
+    "PyCon",
+    "Google Colab"
+  ],
+  "cached": false
+}
+

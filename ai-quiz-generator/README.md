@@ -46,7 +46,27 @@ Set `VITE_API_URL` if your API is not `http://localhost:8000`.
 - Full quiz JSON is stored in `quizzes.full_quiz_data`.
 
 ## Sample Data
-Place outputs and tested URLs in `sample_data/`.
+
+Sample outputs and tested Wikipedia URLs are located in the [`sample_data/`](./sample_data/) folder.
+
+### Contents
+
+- **JSON API Responses**: Example API outputs are stored in [`sample_data/json/`](./sample_data/json/)
+  - `diwali.json` - Diwali festival quiz example
+  - `python.json` - Python programming language quiz example
+  - `hanuman_chalisa.json` - Non-English Wikipedia article example
+  - `history.json` - Example history entries
+
+- **UI Screenshots**: Application screenshots (light and dark modes) are in [`sample_data/Screenshots/`](./sample_data/Screenshots/)
+  - Light mode interface screenshots
+  - Dark mode interface screenshots
+  - Various UI states and interactions
+
+- **Documentation**: See [`sample_data/README.md`](./sample_data/README.md) for detailed documentation including:
+  - Example Wikipedia URLs tested
+  - Complete JSON API response examples
+  - Screenshot gallery with descriptions
+  - Usage instructions
 
 
 

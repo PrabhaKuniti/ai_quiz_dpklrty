@@ -1,0 +1,279 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Diwali",
+  "title": "Diwali",
+  "summary": "Diwali, also known as Dipavali, is a Hindu festival of lights celebrated with variations in Jainism and Sikhism. It symbolizes the victory of light over darkness, good over evil, and knowledge over ignorance. Celebrations span five to six days during the Hindu lunisolar months of Ashvin and Kārtika (mid-September to mid-November). The festival involves illuminating homes and temples, fireworks, rangoli designs, feasts, and is a major cultural event for the Hindu, Sikh, and Jain diaspora. It is an official holiday in several countries and recognized by some US state governments.",
+  "key_entities": {
+    "people": [
+      "Rama",
+      "Sita",
+      "Lakshmana",
+      "Ravana",
+      "Lakshmi",
+      "Ganesha",
+      "Vishnu",
+      "Krishna",
+      "Durga",
+      "Shiva",
+      "Kali",
+      "Hanuman",
+      "Kubera",
+      "Yama",
+      "Yami",
+      "Dhanvantari",
+      "Vishvakarman",
+      "Mahavira",
+      "Guru Hargobind",
+      "Akbar",
+      "Aurangzeb",
+      "William Jones",
+      "Krishna III",
+      "Ravivarman Samgramadhira",
+      "Ramachandracharya",
+      "Narakasura",
+      "Parvati",
+      "Saraswati",
+      "Indra",
+      "Bali",
+      "Subhadra"
+    ],
+    "organizations": [
+      "IAST",
+      "Hindu Endowments Board of Singapore",
+      "BAPS Swaminarayan Sanstha",
+      "ASSOCHAM",
+      "NSE",
+      "BSE",
+      "INDF ETF",
+      "Pontifical Council for Interreligious Dialogue",
+      "FBI",
+      "Khalsa Tract Society",
+      "Singh Sabha Movement"
+    ],
+    "locations": [
+      "India",
+      "Jainism",
+      "Sikhism",
+      "Ayodhya",
+      "Eastern India",
+      "Bangladesh",
+      "Fiji",
+      "Guyana",
+      "Malaysia",
+      "Mauritius",
+      "Myanmar",
+      "Nepal",
+      "Pakistan",
+      "Singapore",
+      "Sri Lanka",
+      "Suriname",
+      "Trinidad and Tobago",
+      "New York City",
+      "Fiji",
+      "India",
+      "Malaysia",
+      "Mauritius",
+      "Myanmar",
+      "Nepal",
+      "Pakistan",
+      "Singapore",
+      "Sri Lanka",
+      "Suriname",
+      "Trinidad and Tobago",
+      "Indian subcontinent",
+      "Assam",
+      "Tamil",
+      "Telugu",
+      "Gujarat",
+      "Nepal",
+      "New York City",
+      "India",
+      "California",
+      "Connecticut",
+      "Pennsylvania",
+      "Pakistan",
+      "New Delhi",
+      "Ayodhya",
+      "Uttar Pradesh",
+      "Colombia",
+      "China",
+      "West Bengal",
+      "Kerala",
+      "Sri Lanka",
+      "Germany"
+    ]
+  },
+  "sections": [
+    "Religious significance",
+    "Celebratory practices",
+    "Dhanteras",
+    "Naraka Chaturdashi",
+    "Lakshmi Pujan",
+    "Annakut, Govardhan Puja, Balipratipada",
+    "Bhai Duj",
+    "Diwali mela",
+    "Economic significance",
+    "Socio-political",
+    "Environmental concerns",
+    "Related festivals"
+  ],
+  "quiz": [
+    {
+      "question": "Which of the following is NOT a deity commonly associated with Diwali?",
+      "options": [
+        "Lakshmi",
+        "Ganesha",
+        "Vishnu",
+        "Buddha"
+      ],
+      "answer": "Buddha",
+      "difficulty": "easy",
+      "explanation": "Diwali is connected to various religious events, deities and personalities, such as Lakshmi, Ganesha, Vishnu, Krishna, Durga, Shiva, Kali, Hanuman, Kubera, Yama, Yami, Dhanvantari, or Vishvakarman. Buddha is not mentioned in the context of Diwali. (Introduction)",
+      "section": "Introduction"
+    },
+    {
+      "question": "In Jainism, Diwali is celebrated in observance of which event?",
+      "options": [
+        "The birth of Mahavira",
+        "Mahavira Nirvana Divas",
+        "The first sermon of Mahavira",
+        "The founding of Jainism"
+      ],
+      "answer": "Mahavira Nirvana Divas",
+      "difficulty": "medium",
+      "explanation": "In Jain religion, Diwali is celebrated in observance of \"Mahavira Nirvana Divas\", the physical death and final nirvana of Mahavira, the 24th Tirthankar of current time cycle. (Religious significance)",
+      "section": "Religious significance"
+    },
+    {
+      "question": "What does the term 'Deepavali' literally mean?",
+      "options": [
+        "Festival of Lights",
+        "A row or series of lights",
+        "Victory of Good over Evil",
+        "Celebration of Wealth"
+      ],
+      "answer": "A row or series of lights",
+      "difficulty": "easy",
+      "explanation": "Diwali comes from Dipavali (Sanskrit: दीपावली, romanized: Dīpāvalī), meaning 'a row or series of lights'. (Introduction)",
+      "section": "Introduction"
+    },
+    {
+      "question": "Which Mughal emperor banned Diwali celebrations, according to the article?",
+      "options": [
+        "Akbar",
+        "Jahangir",
+        "Shah Jahan",
+        "Aurangzeb"
+      ],
+      "answer": "Aurangzeb",
+      "difficulty": "medium",
+      "explanation": "Islamic historians of the Delhi Sultanate and the Mughal Empire era also mentioned Diwali and other Hindu festivals. A few, notably the Mughal emperor Akbar, welcomed and participated in the festivities, whereas others banned such festivals as Diwali and Holi, as Aurangzeb did in 1665. (History)",
+      "section": null
+    },
+    {
+      "question": "Which day of Diwali is dedicated to the bond between sister and brother?",
+      "options": [
+        "Dhanteras",
+        "Naraka Chaturdashi",
+        "Lakshmi Pujan",
+        "Bhai Duj"
+      ],
+      "answer": "Bhai Duj",
+      "difficulty": "medium",
+      "explanation": "The last day of the festival, the second day of the bright fortnight of Kartik, is called Bhai Duj (literally \"brother's day\"), Bhau Beej, Bhai Tilak or Bhai Phonta. It celebrates the sister-brother bond. (Bhai Duj)",
+      "section": "Bhai Duj"
+    },
+    {
+      "question": "What is the significance of lighting diyas facing south on Yama Deepam?",
+      "options": [
+        "To welcome Lakshmi",
+        "To please Yama and ward off untimely death",
+        "To honor ancestors",
+        "To enhance beauty"
+      ],
+      "answer": "To please Yama and ward off untimely death",
+      "difficulty": "medium",
+      "explanation": "On Yama Deepam (also known as Yama Dipadana or Jam ke Diya), Hindus light a diya , ideally made of wheat flour and filled with sesame oil, which faces south in the back of their homes. This is believed to please Yama , the god of death, and to ward off untimely death. (Naraka Chaturdashi)",
+      "section": "Naraka Chaturdashi"
+    },
+    {
+      "question": "Which of the following is a common practice during Diwali celebrations?",
+      "options": [
+        "Fasting for five days",
+        "Wearing black clothes",
+        "Illuminating homes with diyas",
+        "Avoiding sweets"
+      ],
+      "answer": "Illuminating homes with diyas",
+      "difficulty": "easy",
+      "explanation": "During the festival, the celebrants illuminate their homes, temples and workspaces with diyas (oil lamps), candles and lanterns. (Introduction)",
+      "section": "Introduction"
+    },
+    {
+      "question": "Which tradition connects Diwali to Rama's return to Ayodhya?",
+      "options": [
+        "Defeating Narakasura",
+        "The churning of the cosmic ocean",
+        "Rama, Sita, Lakshmana, and Hanuman reaching Ayodhya after exile",
+        "The birth of Lakshmi"
+      ],
+      "answer": "Rama, Sita, Lakshmana, and Hanuman reaching Ayodhya after exile",
+      "difficulty": "medium",
+      "explanation": "One tradition links the festival to legends in the Hindu epic Ramayana, where Diwali is the day Rama, Sita, Lakshmana, and Hanuman reached Ayodhya after a period of 14 years in exile after Rama's army of good, defeated demon king Ravana 's army of evil. (Religious significance)",
+      "section": "Religious significance"
+    },
+    {
+      "question": "Which of the following U.S. states has NOT officially recognized Diwali as a state holiday as of October 2025?",
+      "options": [
+        "California",
+        "Connecticut",
+        "Pennsylvania",
+        "Texas"
+      ],
+      "answer": "Texas",
+      "difficulty": "hard",
+      "explanation": "As of October 2025, Diwali was an official holiday in three U.S. states: California, Connecticut, and Pennsylvania. (Socio-political)",
+      "section": "Socio-political"
+    },
+    {
+      "question": "What is the primary environmental concern associated with Diwali celebrations?",
+      "options": [
+        "Noise pollution from fireworks",
+        "Water pollution from diyas",
+        "Increased concentration of dust and pollutants in the air",
+        "Deforestation due to rangoli designs"
+      ],
+      "answer": "Increased concentration of dust and pollutants in the air",
+      "difficulty": "medium",
+      "explanation": "The use of firecrackers on Diwali increases the concentration of dust and pollutants in the air. (Environmental concerns)",
+      "section": "Environmental concerns"
+    }
+  ],
+  "related_topics": [
+    "Bandi Chhor Divas",
+    "Candlemas",
+    "Chinese New Year",
+    "Day of the Little Candles",
+    "Diwali (Jainism)",
+    "Guy Fawkes Night",
+    "Hanukkah",
+    "Jashn-e-Chiragah",
+    "Kali Puja",
+    "Karthika Deepam",
+    "Lantern Festival",
+    "Loy Krathong",
+    "Nowruz",
+    "Saint Lucy's Day",
+    "Swanti",
+    "Tihar",
+    "Walpurgis Night",
+    "Winter air pollution around Diwali and Asthma",
+    "Hinduism",
+    "Holidays",
+    "India",
+    "Nepal",
+    "Pakistan",
+    "Singapore",
+    "Religion"
+  ],
+  "cached": true
+}
